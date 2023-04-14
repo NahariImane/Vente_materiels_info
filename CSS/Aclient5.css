@@ -1,0 +1,309 @@
+body {
+ background-color: #dfdfdfb9;
+ background-image : url(../img/admin1.jpg);
+ background-size: cover;
+ /*width: 100%;
+ height: 100%;
+ text-size-adjust: 100%;
+ */
+}
+
+
+.logo1 img{ 
+ position:relative;
+    margin-top: -50px;
+    margin-left: 22px;
+    width: 111px;
+    height: 85px;
+}
+
+
+
+.a1
+{
+text-decoration:none;
+color:black;
+}
+.a1:hover
+{
+color:#FFFFFF;
+}
+
+.fa-plus:before {
+    color: black;
+}
+table
+{
+    width: 72%;
+    height: 100%;
+    position: relative;
+    margin: 12% auto;
+    background: #fff;
+  
+}
+.class1 {background: #FFFFFF !important;font-weight:bold;}
+tr:nth-child(even) {background:#bfb8b8 ;font-weight:bold;}
+tr:nth-child(odd) {background: #ADD8E6;font-weight:bold;}
+th{
+border-bottom-color:black;
+height:6%;
+}
+  .fa-mail-reply:before, .fa-reply:before{
+
+   
+    font-size: 29px;
+    color: black;
+   padding: 0 0 0 220px;
+  }
+
+
+#del{
+
+  border-style: 1px solid black;
+}
+#sup{
+  width: 6%;
+}
+
+.fa fa-plus{
+  text-decoration: none;
+  color: black;
+}
+
+
+
+.Modifier
+{
+    padding: 15px 14px 17px 8px;
+    text-decoration: none;
+    color: black;
+    border: 0 #FFF;
+    cursor: pointer;
+    background: transparent;
+    background-color: #ADD8E6;
+    outline: none;
+    position: relative;
+    text-align: center;
+    width: 93%;
+    margin: 17% auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+}
+.Deconnexion
+{
+
+padding: 15px 14px 17px 8px;
+text-decoration:none;
+color:black;
+border: 0 #FFF ;
+  cursor: pointer;
+  background: transparent;
+  background-color: #ADD8E6;
+  outline: none;
+  position: absolute;
+    width: 93%;
+  margin: 17% auto;
+  position: relative;
+  box-shadow: 0 0 20px 9px #ff61241f;
+  border-radius: 30px;
+  margin-top: 5%;
+}
+.fa-location-arrow:before
+{
+    content: "\f124";
+    float: left;
+    margin: 2px 0 3px 12px;
+    font-size: 21px;
+}
+#I2
+{
+    float: left;
+    margin: -15px 109px -4px 22px;
+    font-size: 21px;
+}
+.fa-user:before {
+content: "\f007";
+    /* float: right; */
+    margin: 0 0 0 1436px;
+    font-size: 50px;
+    color: gainsboro;
+}
+
+
+
+.frm2
+{
+    width: 30%;
+    height: 300px ;
+    position: relative;
+    margin: 8% auto;
+    background: #fff;
+    padding:54px 54px 1px 54px;
+    border-radius: 10%
+}
+
+.frm3
+{
+    width: 30%;
+    height: 100%; ;
+    position: relative;
+    margin: 8% auto;
+    background: #fff;
+    padding:54px 54px 1px 54px;
+    border-radius: 10%
+}
+input[type="text"]
+{
+padding: 8px 43px 3px 3px;
+    width: 60%;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+  .fa-mail-reply:before, .fa-reply:before{
+    font-size: 29px;
+    color: black;
+   padding: 0 0 0 417px;
+  }
+
+
+
+input[type="password"]
+{
+padding: 8px 43px 3px 3px;  
+    width: 60%;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+input[type="submit"]
+{
+padding: 17px 49px 16px 36px;
+    background-color: #87CEEB;
+    border: 0px;
+
+    width: 50%;
+    cursor: pointer;
+    display: block;
+    background: linear-gradient(to right , #ADD8E6, #0000FF);
+    outline: none;
+    border-radius: 30px;
+    margin: 34px 0px 0 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Pied de la page */
+footer{
+  
+  border-top: 1px dashed #000;
+  
+    margin-top: 120px;
+   background: #ADD8E6;
+   color: black;
+   text-align: center;
+       width: 99--%;
+
+} 
+
+.contenu-footer{
+  margin: 0 auto;
+  display: -webkit-box;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 15px;
+  /*padding: 17px 71px 0px; */
+  width: 100%;
+}
+
+.blocs{
+  width: 25%;
+  margin: 0 30px;
+ /* padding: 22px 67px 5px 14px;*/
+}
+/*About us*/
+.logo{
+  width: 61px;
+  float: left;
+}
+
+.footer-about p{
+  padding: 2px 0;
+  text-align: left;
+}
+
+/* contact*/
+.footer-about h3,
+.footer-contact h3,
+.footer-media h3 {
+  font-size: 20px;
+  padding-bottom: 15px;
+  text-align: left;
+  margin: 0 0 0 0px;
+}
+
+.footer-contact p{
+     padding: 6px 0;
+    margin: 0 0 0 0px;
+    text-align: left;
+}
+
+.blocs footer-contact p{
+  margin : 0 0 0 100px;
+}
+
+/*Medias*/
+
+ul {
+    padding: 0 0 0 177px;
+    /* height: 100%; */
+    /* margin: 0 0 0 180px; */
+    list-style: none;
+  }
+
+
+.medias li{
+ float: left;
+ margin: 0 0 0 40px;
+}
+
+
+.medias a{
+     text-decoration: none;
+    color: rgb(3 3 3);
+     display :-webkit-box;
+    text-align: left;
+    align-items: center;
+    margin: 0 0 0 -38px;
+    
+}
+.medias a:hover{
+  color: rgb(3,3,3);
+}
+
+.p1{
+  text-align: right;
+}
+
+

@@ -1,0 +1,59 @@
+body {
+ background-color: #dfdfdfb9;
+ background-image : url(../img/admin1.jpg);
+ background-size: cover;
+ 
+}
+form
+{
+    width: 380px;
+    height: 517px;
+    position: relative;
+    margin: 8% auto;
+    background: #fff;
+    padding:54px 54px 1px 54px;
+}
+input[type="text"]
+{
+padding: 8px 43px 3px 3px;
+    width: 60%;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+  .fa-mail-reply:before, .fa-reply:before{
+
+   margin: 0 0 0 -580px;
+    font-size: 29px;
+    color: black;
+   padding: 0 0 0 580px;
+  }
+input[type="password"]
+{
+padding: 8px 43px 3px 3px;	
+    width: 60%;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+input[type="submit"]
+{
+padding: 17px 49px 16px 36px;
+    background-color: #87CEEB;
+    border: 0px;
+    margin: -4px 15px 19px 35px;
+    width: 85%;
+    cursor: pointer;
+    display: block;
+    background: linear-gradient(to right , #ADD8E6, #0000FF);
+    outline: none;
+    border-radius: 30px;
+}

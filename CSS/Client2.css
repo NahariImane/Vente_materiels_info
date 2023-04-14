@@ -1,0 +1,589 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+ margin: 0px 0px 8px 37px;
+  text-align: center;
+  font-family: arial;
+  display: inline-block;
+  padding: 31px;
+}
+
+.price {
+  
+  font-size: 23px;
+  text-decoration: line-through;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: black;
+  background-color: #add8e6;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.3;
+}
+
+#ii {
+   /* width: 100%;  */
+    position: relative;
+    margin-left: 94px;
+    margin-right: 60px;
+}
+body{
+      background-color: #dfdfdfb9;
+      /*width: 100%; */
+    
+}
+
+
+/* mon compte*/
+.fa-user:before {
+content: "\f007";
+    float: right;
+    margin: 0 0 0 1431px;
+    font-size: 35px;
+    color: black;
+}
+
+
+/*links*/
+.links{
+  
+  padding: 0px 78px 40px 0px;
+}
+.links li{
+  display: inline;
+  float: right;
+  padding: 0 0 0 10px; 
+}
+
+
+/*
+.acc{
+    float: right;
+}
+*/
+
+.infos{
+ display: inline;
+ float: left;
+ margin: 0 20px 0 0; 
+}
+
+a.con{
+text-decoration: none;
+color: black;
+border-right:  2px solid; 
+ padding: 0 14px 0px 0px;
+ font-weight: bold;
+}
+
+a.ac{
+
+text-decoration: none;
+color: black;
+/* padding: 0 14px 0px 0px; */
+ margin: 0 356px 0px 0px;
+ font-weight: bold;
+}
+
+.ac:hover{
+    background-color: #ADD8E6;
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+
+.con:hover{
+    background-color: #ADD8E6;
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+/*rechreche*/
+
+#p  { border:0;
+      background-color:#64645e;
+      margin-bottom: 10px;
+      width: 37px;
+      height: 46px;
+      border-radius: 6px;
+    }
+#p:hover { 
+   background-color: #262424;
+   color: white;
+  }
+
+#t {
+     
+    height: 40px;
+    margin: 0 0 0 315px;
+    width: 518px;
+    border-radius: 6px;
+
+   }
+
+/*panier*/
+
+/*panier*/
+.panier{
+  border: 0;
+    background-color: #64645e;
+    margin-bottom: 5px;
+    margin-top: -55px;
+    margin-right:32%;
+    width: 118px;
+    height: 46px;
+    border-radius: 6px;
+    float: right;
+}
+.panier:hover { 
+   background-color: #262424;
+   
+  }
+
+
+#pan{
+ text-decoration: none;
+    color: #78d0ed;
+    font-weight: bold;
+}
+
+#pan:hover{
+  color: white;
+}
+
+
+/*categories*/
+#nav{ 
+
+  height: 60px;
+  width: 100%; 
+  background: #ADD8E6;
+  overflow:  auto;
+  float: left;
+  /*padding: 0px 305px 0px 0px;
+    margin: 0px -290px 0px 0px;*/
+    position: relative;
+}
+
+
+ul{
+  padding: 0;
+ /* height: 100%;*/
+ /* margin: 0 0 0 180px; */
+  list-style: none; 
+}
+
+.left {
+  float: left;
+  padding: 0 0 0 15px;
+}
+
+
+.logo1 img{ 
+  position: absolute;
+    margin-top: -15px;
+    margin-left: 138px;
+    width: 100px;
+    height: 80px;
+}
+
+nav a{
+  /* width: 100px; */
+   display: block;
+   padding: 7px 20px;
+   margin: 0 10px 0 35px;
+   text-decoration: none;
+   font-family: Arial;
+   color: #000000;
+   text-align: center;
+   background: #ADD8E6;
+}
+
+nav a:hover{
+   background-color: #64645e;
+   color:white;   
+   text-decoration: underline;
+}
+
+
+h1 {
+      font-size: 30px;
+}
+
+
+
+.s{
+      float: right;
+}
+
+
+.pht td{
+  width: 30%;
+}
+
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 20px 27px;
+  background-color: inherit;
+  font-family: Arial;
+  margin: 0;
+}
+
+ .dropdown:hover .dropbtn {
+ background-color: rgb(0, 0, 0);
+   color:white; 
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 30px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*
+
+
+
+.tableau{
+  margin: 0 0 0 170px;
+}
+
+td#im{
+  border-style: none solid none none;
+
+}
+
+
+td#or{
+  border-style: none solid none none;
+   
+}
+
+td#Peri{
+  border-style: none solid none none;
+   
+} 
+
+td#Ond{
+  border-style: none solid none none;
+   
+}
+
+td#Image{
+  border-style: none solid none none;
+   
+}
+td#Tel{
+  border-style: none solid none none;
+   
+}
+
+
+td#Re{
+  border-style: none;
+ 
+}
+
+.tableau a{
+  text-decoration: none;
+  color: black;
+
+}
+
+*/
+/*Appercu des diapos*/
+.diapo{
+  display: none; 
+   height: 100%; 
+
+}
+
+
+
+
+.diapos{
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  margin-left: 70px;
+  width: 1350px;
+  height: 400px;
+
+  
+}
+
+.img{
+
+    height: 400px;
+    width: 1400px;
+}
+
+
+/*les boutons suivant et precedent*/
+.suivant, .precedent   {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: black;
+
+}
+
+.suivant {
+ margin: -23px -400px 0 0;
+  right: 0px;
+  border-radius: 3px 0 0 3px;
+
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.point {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+} 
+
+
+.active, .point:hover {
+  background-color: #717171;
+}
+
+#barre  li a:hover:not(.active) {
+    background-color: rgb(0, 0, 0);
+    color:white;
+    }
+
+
+.boutton{
+  text-align:center;
+    width: 1300px;
+    margin: auto;
+  margin-left: 112px;
+
+}
+
+
+.text {
+  color: steelblue;
+  font-size: 19px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 8px;
+  width: 100%;
+  text-align: center;
+  margin: 0 0 0 -450px;
+      font-family: sans-serif;
+    font-weight: bold;
+}
+
+.text2 {
+  color: black;
+  font-size: 19px;
+  padding: 8px 173px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  margin: 0 0 0 1px;
+      font-family: sans-serif;
+    font-weight: bold;
+}
+
+
+
+/*products*/
+.produits{
+  max-width: 1217px;
+  margin: auto;
+  background:#f2f2f2 ;
+  overflow: auto;
+}
+
+.photos{
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 390px;
+}
+
+.photos img{
+  width: 100%; 
+  height:auto;
+}
+
+.description{
+  padding: 15px;
+  text-align: center;
+}
+
+
+/*Ajouter au panier */
+.fa {
+
+  color: black;
+}
+
+
+.fa-shopping-cart2:before {
+    content: "\f07a";
+    color: black;
+}
+
+
+
+.achats{
+  text-decoration:underline;
+  color: black;
+}
+
+
+
+
+/*Pied de la page */
+footer{
+  
+  border-top: 1px dashed #000;
+  
+    margin-top: 120px;
+   background: #ADD8E6;
+   color: black;
+   text-align: center;
+       width: 99--%;
+
+} 
+
+.contenu-footer{
+  margin: 0 auto;
+  display: -webkit-box;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 15px;
+  /*padding: 17px 71px 0px; */
+  width: 100%;
+}
+
+.blocs{
+  width: 25%;
+  margin: 0 30px;
+ /* padding: 22px 67px 5px 14px;*/
+}
+/*About us*/
+.logo{
+  width: 61px;
+  float: left;
+}
+
+.footer-about p{
+  padding: 2px 0;
+  text-align: left;
+}
+
+/* contact*/
+.footer-about h3,
+.footer-contact h3,
+.footer-media h3 {
+  font-size: 20px;
+  padding-bottom: 15px;
+  text-align: left;
+  margin: 0 0 0 0px;
+}
+
+.footer-contact p{
+     padding: 6px 0;
+    margin: 0 0 0 0px;
+    text-align: left;
+}
+
+.blocs footer-contact p{
+  margin : 0 0 0 100px;
+}
+
+/*Medias*/
+
+ul {
+    padding: 0 0 0 177px;
+    /* height: 100%; */
+    /* margin: 0 0 0 180px; */
+    list-style: none;
+  }
+
+
+.medias li{
+ float: left;
+ margin: 0 0 0 40px;
+}
+
+
+.medias a{
+     text-decoration: none;
+    color: rgb(3 3 3);
+     display :-webkit-box;
+    text-align: left;
+    align-items: center;
+    margin: 0 0 0 -217px;
+    
+}
+.medias a:hover{
+  color: rgb(3,3,3);
+}
+
+.p1{
+  text-align: right;
+}

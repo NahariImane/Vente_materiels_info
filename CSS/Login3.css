@@ -1,0 +1,296 @@
+body{
+      margin: 0;
+      padding: 0;
+   
+     background-color:  #dfdfdfb9;
+      font-family: sans-serif;
+}
+
+
+
+
+
+
+.logo1 img{ 
+position: absolute;
+    margin-top: 8px;
+    margin-left: 22px;
+    width: 93px;
+    height: 75px;
+}
+
+
+.Ville
+{
+	padding: 5px 184px 7px 6px;
+    margin: 6px 6px 3px 0px;
+}
+.R {
+color:red;
+margin: 5px 5px 5px 18px;
+font-size: 16px;
+font-weight: bold;
+}
+
+.login-form{
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../img/login-background.jpg); 
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+}
+
+.form-box{
+	width: 380px;
+	height: 631px;
+	position: relative;
+	margin: 0% auto;
+	background: #fff;
+	padding: 5px;
+}
+
+.button-box{
+	width: 221px;
+	margin: 45px auto;
+	position: relative;
+	box-shadow: 0 0 20px 9px #ff61241f;
+	border-radius: 30px;
+}
+
+.toggle-btn{
+	padding: 10px 4px;
+	cursor: pointer;
+	background: transparent;
+	border: 0;
+	outline: none;
+	position: relative; 
+	text-align: center;
+   
+}
+
+
+.toggle2-btn{
+	padding: 10px 20px;
+	cursor: pointer;
+	background: transparent;
+	border: 0;
+	outline: none;
+	position: absolute; 
+    
+}
+
+
+#btn{
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 110px;
+	height: 100%;
+	background: linear-gradient(to right, #ADD8E6, #0000FF);
+	border-radius: 30px;
+	transition: .5s;
+}
+
+
+
+.inputs{
+	top: 180px;
+	position: absolute;
+	width: 280px;
+	transition: .5s;
+	vertical-align: middle;
+}
+
+
+
+.input-field{
+	width: 100% ;
+	padding: 10px 0;
+	margin: 5px 0;
+	border-left: 0;
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 1px solid #999;
+	outline: none;
+	background: transparent;
+}
+
+.submit-btn{
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: linear-gradient(to right , #ADD8E6, #0000FF);
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+}
+
+.check-box{
+	margin: 30 10px 30px 0 ; 
+}
+
+span{
+	color: #777;
+	font-size: 12px;
+	bottom: 40px;
+	position: absolute;
+}
+
+#connecter{
+	left: 50px;
+}
+
+#inscrire{
+	left: 450px;
+}
+
+
+.select-style {
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ccc;
+    width: 250px;
+    border-radius: 3px;
+    overflow: hidden;
+    background-color: #fff;
+    background: #fff;
+    position: relative;
+}
+
+.select-style select {
+    padding: 5px 8px;
+    width: 130%;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.select-style:after {
+    top: 50%;
+    left: 85%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(0, 0, 0, 0);
+    border-top-color: #000000;
+    border-width: 5px;
+    margin-top: -2px;
+    z-index: 100;
+}
+
+.select-style select:focus {
+    outline: none;
+}
+
+
+/* RETOUR*/
+  .fa-mail-reply:before, .fa-reply:before{
+
+    margin: 0px 128px 0px -241px;
+    font-size: 29px;
+    color: black;
+  }
+
+
+
+/*Pied de la page */
+footer{
+  
+  border-top: 1px dashed #000;
+  
+    margin-top: 120px;
+   background: #ADD8E6;
+   color: black;
+   text-align: center;
+       width: 99--%;
+
+} 
+
+.contenu-footer{
+  margin: 0 auto;
+  display: -webkit-box;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 15px;
+  /*padding: 17px 71px 0px; */
+  width: 100%;
+}
+
+.blocs{
+  width: 25%;
+  margin: 0 30px;
+ /* padding: 22px 67px 5px 14px;*/
+}
+/*About us*/
+.logo{
+  width: 61px;
+  float: left;
+}
+
+.footer-about p{
+  padding: 2px 0;
+  text-align: left;
+}
+
+/* contact*/
+.footer-about h3,
+.footer-contact h3,
+.footer-media h3 {
+  font-size: 20px;
+  padding-bottom: 15px;
+  text-align: left;
+  margin: 0 0 0 0px;
+}
+
+.footer-contact p{
+     padding: 6px 0;
+    margin: 0 0 0 0px;
+    text-align: left;
+}
+
+.blocs footer-contact p{
+  margin : 0 0 0 100px;
+}
+
+/*Medias*/
+
+ul {
+    padding: 0 0 0 177px;
+    /* height: 100%; */
+    /* margin: 0 0 0 180px; */
+    list-style: none;
+  }
+
+
+.medias li{
+ float: left;
+ margin: 0 0 0 40px;
+}
+
+
+.medias a{
+     text-decoration: none;
+    color: rgb(3 3 3);
+     display :-webkit-box;
+    text-align: left;
+    align-items: center;
+    margin: 0 0 0 -217px;
+    
+}
+.medias a:hover{
+  color: rgb(3,3,3);
+}
+
+.p1{
+  text-align: right;
+}

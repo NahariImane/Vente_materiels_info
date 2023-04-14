@@ -1,0 +1,163 @@
+body {
+ background-color: #dfdfdfb9;
+
+ background-size: cover;
+ 
+}
+
+
+.logo1 img{ 
+ position:relative;
+    margin-top: -50px;
+    margin-left: 22px;
+    width: 111px;
+    height: 85px;
+}
+
+form
+{
+    width: 380px;
+    height: 517px;
+    position: relative;
+    margin: 8% auto;
+    background: #fff;
+    padding:54px 54px 1px 54px;
+}
+input[type="text"]
+{
+padding: 8px 43px 3px 3px;
+    width: 60%;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+   .fa-mail-reply:before, .fa-reply:before{
+    font-size: 29px;
+    color: black;
+   padding: 0 0 0 417px;
+  }
+
+input[type="password"]
+{
+padding: 8px 43px 3px 3px;	
+    width: 60%;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+input[type="submit"]
+{
+padding: 17px 49px 16px 36px;
+    background-color: #87CEEB;
+    border: 0px;
+    margin: -4px 15px 19px 35px;
+    width: 70%;
+    cursor: pointer;
+    display: block;
+    background: linear-gradient(to right , #ADD8E6, #0000FF);
+    outline: none;
+    border-radius: 30px;
+}
+
+
+/*Pied de la page */
+footer{
+  
+  border-top: 1px dashed #000;
+  
+    margin-top: 120px;
+   background: #ADD8E6;
+   color: black;
+   text-align: center;
+       width: 99--%;
+
+} 
+
+.contenu-footer{
+  margin: 0 auto;
+  display: -webkit-box;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 15px;
+  /*padding: 17px 71px 0px; */
+  width: 100%;
+}
+
+.blocs{
+  width: 25%;
+  margin: 0 30px;
+ /* padding: 22px 67px 5px 14px;*/
+}
+/*About us*/
+.logo{
+  width: 61px;
+  float: left;
+}
+
+.footer-about p{
+  padding: 2px 0;
+  text-align: left;
+}
+
+/* contact*/
+.footer-about h3,
+.footer-contact h3,
+.footer-media h3 {
+  font-size: 20px;
+  padding-bottom: 15px;
+  text-align: left;
+  margin: 0 0 0 0px;
+}
+
+.footer-contact p{
+     padding: 6px 0;
+    margin: 0 0 0 0px;
+    text-align: left;
+}
+
+.blocs footer-contact p{
+  margin : 0 0 0 100px;
+}
+
+/*Medias*/
+
+ul {
+    padding: 0 0 0 177px;
+    /* height: 100%; */
+    /* margin: 0 0 0 180px; */
+    list-style: none;
+  }
+
+
+.medias li{
+ float: left;
+ margin: 0 0 0 40px;
+}
+
+
+.medias a{
+     text-decoration: none;
+    color: rgb(3 3 3);
+     display :-webkit-box;
+    text-align: left;
+    align-items: center;
+    margin: 0 0 0 -197px;
+    
+}
+.medias a:hover{
+  color: rgb(3,3,3);
+}
+
+.p1{
+  text-align: right;
+}
+
+
